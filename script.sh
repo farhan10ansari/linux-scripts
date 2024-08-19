@@ -58,7 +58,7 @@ flatpak install flathub com.usebottles.bottles -y
 flatpak install flathub org.telegram.desktop -y
 flatpak install flathub org.mozilla.Thunderbird -y
 flatpak install flathub com.wps.Office -y
-
+flatpak install flathub io.dbeaver.DBeaverCommunity -y
 
 # snap apps
 sudo snap install slack
