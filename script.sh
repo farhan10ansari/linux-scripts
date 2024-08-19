@@ -64,7 +64,7 @@ flatpak install flathub io.dbeaver.DBeaverCommunity -y
 sudo snap install slack
 sudo snap install teams-for-linux
 sudo snap install keep-presence
-
+sudo snap install xdman
 
 
 # install cpu auto frequency
