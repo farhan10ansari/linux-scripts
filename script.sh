@@ -22,6 +22,7 @@ sudo nala install gparted -y
 sudo nala install timeshift -y
 sudo nala install steam -y
 sudo nala install synaptic -y
+sudo nala install gtkhash -y
 
 # gnome apps
 sudo nala install gnome-tweaks -y
