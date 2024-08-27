@@ -23,6 +23,8 @@ sudo nala install timeshift -y
 sudo nala install steam -y
 sudo nala install synaptic -y
 sudo nala install gtkhash -y
+sudo nala install adb -y
+sudo nala install scrcpy -y
 
 # gnome apps
 sudo nala install gnome-tweaks -y
