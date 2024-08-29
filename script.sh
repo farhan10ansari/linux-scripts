@@ -33,10 +33,23 @@ sudo nala install gnome-snapshot -y
 sudo nala install gnome-weather -y
 sudo nala install gnome-calendar -y
 sudo nala install dconf-editor -y
+sudo nala install gnome-sound-recorder -y
+
+# nautlius plugins
+sudo nala install nautilus-image-converter -y
+sudo nala install gnome-sushi -y
+# sudo nala install nautilus-admin -y
+# sudo nala install nautilus-compare -y
+# sudo nala install nautilus-hide -y
+# sudo nala install nautilus-terminal -y
+# sudo nala install nautilus-wipe -y
+
+
+
 
 # some important tools
 sudo nala install htop neofetch curl linux-headers-$(uname -r) linux-headers-generic ntfs-3g
-# sudo nala install htop neofetch bpytop clang cargo libc6-i386 libc6-x32 libu2f-udev samba-common-bin exfat-fuse default-jdk curl wget unrar linux-headers-$(uname -r) linux-headers-generic git gstreamer1.0-vaapi unzip ntfs-3g p7zip htop neofetch bpytop git gcc make curl bzip2 tar
+# sudo nala install htop neofetch bpytop clang cargo libc6-i386 libc6-x32 libu2f-udev samba-common-bin exfat-fuse default-jdk curl wget unrar linux-headers-$(uname -r) linux-headers-generic git gstreamer1.0-vaapi unzip ntfs-3g p7zip bpytop git gcc make bzip2 tar
 
 # virtual machine tools
 sudo apt install qemu-kvm qemu-utils libvirt-daemon-system libvirt-clients bridge-utils virt-manager ovmf -y
