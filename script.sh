@@ -152,3 +152,7 @@ sudo apt-get update
 
 # Install the Docker packages.
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+#create desktop shortcut for work folder
+# ln -s /mnt/42A4B7B6A4B7AB35/sngy/ Desktop/
+# ln -s /mnt/42A4B7B6A4B7AB35/farhan/ Desktop/
