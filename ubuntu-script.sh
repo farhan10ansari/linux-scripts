@@ -25,6 +25,7 @@ sudo nala install synaptic -y
 sudo nala install gtkhash -y
 sudo nala install adb -y
 sudo nala install scrcpy -y
+sudo nala install megasync -y
 
 # gnome apps
 sudo nala install gnome-tweaks -y
@@ -135,7 +136,7 @@ sudo apt install touchegg
 
 
 # install docker
-
+# https://docs.docker.com/engine/install/ubuntu/#installation-methods
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
