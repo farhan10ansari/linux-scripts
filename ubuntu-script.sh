@@ -77,6 +77,7 @@ flatpak install flathub org.mozilla.Thunderbird -y
 flatpak install flathub com.wps.Office -y
 flatpak install flathub io.dbeaver.DBeaverCommunity -y
 flatpak install flathub io.typora.Typora -y
+flatpak install flathub com.vixalien.sticky -y
 
 # snap apps
 sudo snap install slack
@@ -100,7 +101,6 @@ timedatectl set-local-rtc 1
 # obsidian
 # vs-code
 # mongodb compass
-# dbeaver
 # postman
 # insightful
 
