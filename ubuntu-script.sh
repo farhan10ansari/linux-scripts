@@ -82,7 +82,6 @@ flatpak install flathub com.vixalien.sticky -y
 # snap apps
 sudo snap install slack
 sudo snap install teams-for-linux
-sudo snap install keep-presence
 sudo snap install xdman
 
 
