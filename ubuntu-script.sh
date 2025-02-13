@@ -156,3 +156,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 #create desktop shortcut for work folder
 # ln -s /mnt/42A4B7B6A4B7AB35/sngy/ Desktop/
 # ln -s /mnt/42A4B7B6A4B7AB35/farhan/ Desktop/
+
+
+#create alisas
+echo "alias cls='clear'" >> ~/.bashrc && source ~/.bashrc
+echo "alias python=python3" >> ~/.bashrc && source ~/.bashrc
