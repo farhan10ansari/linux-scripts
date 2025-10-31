@@ -161,3 +161,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 #create alisas
 echo "alias cls='clear'" >> ~/.bashrc && source ~/.bashrc
 echo "alias python=python3" >> ~/.bashrc && source ~/.bashrc
+
+
+
+#Gnome
+
+#Disable gnome extensions compatibility check for gnome versions
+gsettings set org.gnome.shell disable-extension-version-validation true
