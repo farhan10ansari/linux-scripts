@@ -9,48 +9,48 @@ sudo apt-get dist-upgrade
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install nala -y
+sudo apt install apt -y
 sudo apt install curl -y
 sudo apt install wget -y
 sudo apt install ubuntu-restricted-extras
-sudo nala install git -y
-sudo nala install vlc -y
-sudo nala install obs-studio -y
+sudo apt install git -y
+sudo apt install vlc -y
+sudo apt install obs-studio -y
 
-sudo nala install stacer -y
-sudo nala install gparted -y
-sudo nala install timeshift -y
-sudo nala install steam -y
-sudo nala install synaptic -y
-sudo nala install gtkhash -y
-sudo nala install adb -y
-sudo nala install scrcpy -y
-sudo nala install megasync -y
+sudo apt install stacer -y
+sudo apt install gparted -y
+sudo apt install timeshift -y
+sudo apt install steam -y
+sudo apt install synaptic -y
+sudo apt install gtkhash -y
+sudo apt install adb -y
+sudo apt install scrcpy -y
+sudo apt install megasync -y
 
 # gnome apps
-sudo nala install gnome-tweaks -y
-sudo nala install gnome-shell-extension-manager -y
-sudo nala install gnome-snapshot -y
-sudo nala install gnome-weather -y
-sudo nala install gnome-calendar -y
-sudo nala install dconf-editor -y
-sudo nala install gnome-sound-recorder -y
+sudo apt install gnome-tweaks -y
+sudo apt install gnome-shell-extension-manager -y
+sudo apt install gnome-snapshot -y
+sudo apt install gnome-weather -y
+sudo apt install gnome-calendar -y
+sudo apt install dconf-editor -y
+sudo apt install gnome-sound-recorder -y
 
 # nautlius plugins
-sudo nala install nautilus-image-converter -y
-sudo nala install gnome-sushi -y
-# sudo nala install nautilus-admin -y
-# sudo nala install nautilus-compare -y
-# sudo nala install nautilus-hide -y
-# sudo nala install nautilus-terminal -y
-# sudo nala install nautilus-wipe -y
+sudo apt install nautilus-image-converter -y
+sudo apt install gnome-sushi -y
+# sudo apt install nautilus-admin -y
+# sudo apt install nautilus-compare -y
+# sudo apt install nautilus-hide -y
+# sudo apt install nautilus-terminal -y
+# sudo apt install nautilus-wipe -y
 
 
 
 
 # some important tools
-sudo nala install htop neofetch curl linux-headers-$(uname -r) linux-headers-generic ntfs-3g
-# sudo nala install htop neofetch bpytop clang cargo libc6-i386 libc6-x32 libu2f-udev samba-common-bin exfat-fuse default-jdk curl wget unrar linux-headers-$(uname -r) linux-headers-generic git gstreamer1.0-vaapi unzip ntfs-3g p7zip bpytop git gcc make bzip2 tar
+sudo apt install htop neofetch curl linux-headers-$(uname -r) linux-headers-generic ntfs-3g
+# sudo apt install htop neofetch bpytop clang cargo libc6-i386 libc6-x32 libu2f-udev samba-common-bin exfat-fuse default-jdk curl wget unrar linux-headers-$(uname -r) linux-headers-generic git gstreamer1.0-vaapi unzip ntfs-3g p7zip bpytop git gcc make bzip2 tar
 
 # virtual machine tools
 sudo apt install qemu-kvm qemu-utils libvirt-daemon-system libvirt-clients bridge-utils virt-manager ovmf -y
