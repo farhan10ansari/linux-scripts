@@ -35,6 +35,12 @@ echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com
 dnf check-update && sudo dnf install code # or code-insiders
 
 
+#brave install
+sudo dnf install dnf-plugins-core -y
+sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+sudo dnf install brave-browser -y
+
+
 
 
 # some settings
