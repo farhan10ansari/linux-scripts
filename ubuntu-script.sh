@@ -119,7 +119,7 @@ cd Top-5-Bootloader-Themes
 sudo ./install.sh
 
 # setup open with code for nautilus
-wget -qO- https://raw.githubusercontent.com/harry-cpp/code-nautilus/master/install.sh | bash
+# wget -qO- https://raw.githubusercontent.com/harry-cpp/code-nautilus/master/install.sh | bash
 
 # install nodejs
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -168,3 +168,13 @@ echo "alias python=python3" >> ~/.bashrc && source ~/.bashrc
 
 #Disable gnome extensions compatibility check for gnome versions
 gsettings set org.gnome.shell disable-extension-version-validation true
+
+
+
+# setup open with code for nautilus
+# wget -qO- https://raw.githubusercontent.com/harry-cpp/code-nautilus/master/install.sh | bash
+
+#Enable open in code, cursor, antigravity for nautilus
+sudo apt install python3-nautilus -y
+mkdir -p ~/.local/share/nautilus-python/extensions/
+cp scripts/*.py ~/.local/share/nautilus-python/extensions/

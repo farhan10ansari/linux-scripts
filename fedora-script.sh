@@ -54,9 +54,6 @@ git config --global user.name "farhan10ansari"
 git config --global user.email "farhan10ansari@gmail.com"
 
 
-# setup open with code for nautilus
-wget -qO- https://raw.githubusercontent.com/harry-cpp/code-nautilus/master/install.sh | bash
-
 
 #create alisas
 echo "alias cls='clear'" >> ~/.bashrc && source ~/.bashrc
@@ -77,3 +74,12 @@ nvm install 22
 node -v # Should print "v22.21.1".
 # Verify npm version:
 npm -v # Should print "10.9.4".
+
+
+# setup open with code for nautilus
+# wget -qO- https://raw.githubusercontent.com/harry-cpp/code-nautilus/master/install.sh | bash
+
+#Enable open in code, cursor, antigravity for nautilus
+sudo dnf install nautilus-python -y
+mkdir -p ~/.local/share/nautilus-python/extensions/
+cp scripts/*.py ~/.local/share/nautilus-python/extensions/
